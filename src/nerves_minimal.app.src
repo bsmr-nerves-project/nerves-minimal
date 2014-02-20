@@ -1,0 +1,12 @@
+{application, nerves_minimal,
+ [
+  {description, "Nerves Minimal Application"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { nerves_minimal_app, []}},
+  {env, []}
+ ]}.
